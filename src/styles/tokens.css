@@ -1,0 +1,54 @@
+:root {
+  --font-display: "Outfit", Arial, sans-serif;
+  --font-sans: "Inter", Arial, sans-serif;
+  --font-serif: "EB Garamond", Georgia, "Times New Roman", serif;
+
+  --color-primary: #141414;
+  --color-neutral-darker1: #464646;
+  --color-neutral-darker: #5b5b5b;
+  --color-neutral-darker2: #2a2a2a;
+  --color-neutral-dark: #7a7a7a;
+  --color-neutral-default: #aaaaaa;
+  --color-neutral-light: #d8d8d8;
+  --color-neutral-lighter: #e7e7e7;
+  --color-neutral-lightest: #f9f9f9;
+  --color-paper: #f3f2ee;
+  --color-lime: #92df00;
+  --color-yellow: #fee200;
+  --color-white: #ffffff;
+
+  --container-max: 1310px;
+  --gutter: 15px;
+  --header-height: 70px;
+  --section-pad: 100px;
+  --image-radius: 5px;
+  --ease-in: ease-in;
+  --ease-in-out: ease-in-out;
+}
+
+@media (max-width: 1399px) {
+  :root {
+    --container-max: 1170px;
+  }
+}
+
+@media (max-width: 1199px) {
+  :root {
+    --container-max: 970px;
+    --header-height: 42px;
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    --container-max: 750px;
+    --section-pad: 72px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --container-max: 100%;
+    --section-pad: 68px;
+  }
+}
